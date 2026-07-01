@@ -1,0 +1,10 @@
+# cloud_detection_server 依赖
+# Python 3.10 / 3.11 (Windows)
+
+fastapi>=0.110
+uvicorn[standard]>=0.27
+python-multipart>=0.0.9     # FastAPI 处理 multipart/form-data (UploadFile/Form) 必需
+opencv-python>=4.8
+ultralytics>=8.1            # 会自动带上 torch 等推理依赖; 首次会下载 yolo11n.pt
+requests>=2.31              # 仅用于 tests/test_client.py 本机测试
+pytest>=7.4                 # 可选: 自动化测试

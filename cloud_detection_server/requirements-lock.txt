@@ -1,0 +1,11 @@
+# 已在 Windows Python 3.11.7 环境验证的直接依赖版本。
+fastapi==0.137.0
+uvicorn[standard]==0.49.0
+python-multipart==0.0.32
+pydantic==2.13.4
+numpy==2.4.6
+opencv-python-headless==4.13.0.92
+ultralytics==8.4.67
+requests==2.34.2
+httpx==0.28.1
+pytest==9.1.0

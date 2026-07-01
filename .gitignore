@@ -1,0 +1,49 @@
+# Local/editor state
+.agents/
+.claude/
+.vscode/
+
+# Python/runtime artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+runs/
+
+# Logs and process files
+*.log
+*.pid
+server*.log
+uvicorn*.log
+
+# Model weights and generated media
+*.pt
+*.onnx
+*.engine
+
+# Build outputs
+*.o
+*.a
+*.so
+*.dll
+*.exe
+*.out
+build/
+dist/
+
+# Personal notes / interview prep / private handoff docs
+*八股*
+*路线*
+*交接*
+*当前任务*
+*改进思路*
+*总结*
+*整理清单*
+*面试*
+*说明*.md
+*方案*.md
+任务1至任务4能力总结/
+*.local.json
+wifi连接
